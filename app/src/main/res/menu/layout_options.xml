@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_add_item"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="Add Item"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_remove_item"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:title="Remove Item"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_vertical"
+        android:title="Vertical List"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_horizontal"
+        android:title="Horizontal List"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_grid_vertical"
+        android:title="Vertical Grid"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_grid_horizontal"
+        android:title="Horizontal Grid"
+        app:showAsAction="never" />
+</menu>

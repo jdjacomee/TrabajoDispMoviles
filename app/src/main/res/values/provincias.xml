@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Array que relaciona cada provinmcia con sus cantones-->
+    <string-array name="array_provincias_a_cantones">
+        <item>@array/cantones_azuay</item>
+        <item>@array/cantones_bolivar</item>
+        <item>@array/cantones_canar</item>
+        <item>@array/cantones_carchi</item>
+        <item>@array/cantones_chimborazo</item>
+        <item>@array/cantones_cotopaxi</item>
+        <item>@array/cantones_eloro</item>
+        <item>@array/cantones_esmeraldas</item>
+        <item>@array/cantones_galapagos</item>
+        <item>@array/cantones_guayas</item>
+        <item>@array/cantones_imbabura</item>
+        <item>@array/cantones_loja</item>
+        <item>@array/cantones_losrios</item>
+        <item>@array/cantones_manabi</item>
+        <item>@array/cantones_morona</item>
+        <item>@array/cantones_napo</item>
+        <item>@array/cantones_orellana</item>
+        <item>@array/cantones_pastaza</item>
+        <item>@array/cantones_pichincha</item>
+        <item>@array/cantones_santaelena</item>
+        <item>@array/cantones_santodomingo</item>
+        <item>@array/cantones_sucumbios</item>
+        <item>@array/cantones_tungurahua</item>
+        <item>@array/cantones_zamora</item>
+
+    </string-array>
+
+
+    <!-- Declaración de las provincias-->
+    <string-array name="array_provincias">
+        <item>AZUAY</item>
+        <item>BOLIVAR</item>
+        <item>CAÑAR</item>
+        <item>CARCHI</item>
+        <item>CHIMBORAXO</item>
+        <item>COTOPAXI</item>
+        <item>EL ORO</item>
+        <item>ESMERALDAS</item>
+        <item>GALÁPAGOS</item>
+        <item>GUAYAS</item>
+        <item>IMBABURA</item>
+        <item>LOJA</item>
+        <item>LOS RÍOS</item>
+        <item>MANABÍ</item>
+        <item>MORONA SANTIAGO</item>
+        <item>NAPO</item>
+        <item>ORELLANA</item>
+        <item>PASTAZA</item>
+        <item>PICHINCHA</item>
+        <item>SANTA ELENA</item>
+        <item>SANTO DOMINGO DE LOS TSÁCHILAS</item>
+        <item>SUCUMBÍOS</item>
+        <item>TUNGURAHUA</item>
+        <item>ZAMORA CHINCHIPE</item>
+
+    </string-array>
+
+
+    <!-- Declaración de los cantones de cada provincia, siguiendo el orden de las provincias-->
+
+    <string-array name="cantones_azuay">
+        <item>CHORDELEG</item>
+        <item>CUENCA</item>
+        <item>EL PAN</item>
+        <item>GIRÓN</item>
+        <item>GUACHAPALA</item>
+        <item>GUALACEO</item>
+        <item>NABÓN</item>
+        <item>OÑA</item>
+        <item>PAUTE</item>
+        <item>PONCE ENRÍQUEZ</item>
+        <item>PUCARÁ</item>
+        <item>SAN FERNANDO</item>
+        <item>SANTA ISABEL</item>
+        <item>SEVILLA DE ORO</item>
+        <item>SIGSIG</item>
+
+    </string-array>
+
+    <string-array name="cantones_bolivar">
+        <item>CALUMA</item>
+        <item>CHILLANES</item>
+        <item>CHIMBO</item>
+        <item>ECHEANDÍA</item>
+        <item>GUARANDA</item>
+        <item>LASNAVES</item>
+        <item>SANMIGUEL</item>
+    </string-array>
+
+
+    <string-array name="cantones_canar">
+        <item>AZOGUES</item>
+        <item>BIBLIÁN</item>
+        <item>CAÑAR</item>
+        <item>DELEG</item>
+        <item>EL TAMBO</item>
+        <item>LA TRONCAL</item>
+    </string-array>
+
+    <string-array name="cantones_carchi">
+        <item>BOLIVAR</item>
+        <item>ESPEJO</item>
+        <item>MIRA</item>
+        <item>MONTÚFAR</item>
+        <item>SAN PEDRO DE HUACA</item>
+        <item>TULCÁN</item>
+    </string-array>
+
+    <string-array name="cantones_chimborazo">
+        <item>ALAUSI</item>
+        <item>CHAMBO</item>
+        <item>CHUNCHI</item>
+        <item>COLTA</item>
+        <item>CUMANDÁ</item>
+        <item>GUAMOTE</item>
+        <item>GUANO</item>
+        <item>PALLATANGA</item>
+        <item>PENIPE</item>
+        <item>RIOBAMBA</item>
+    </string-array>
+
+    <string-array name="cantones_cotopaxi">
+        <item>LA MANÁ</item>
+        <item>LATACUNGA</item>
+        <item>PANGUA</item>
+        <item>PUJILÍ</item>
+        <item>SALCEDO</item>
+        <item>SAQUISILÍ</item>
+        <item>SIGCHOS</item>
+    </string-array>
+
+    <string-array name="cantones_eloro">
+        <item>ARENILLAS</item>
+        <item>ATAHUALPA</item>
+        <item>BALSAS</item>
+        <item>CHILLA</item>
+        <item>EL GUABO</item>
+        <item>HUAQUILLAS</item>
+        <item>LAS LAJAS</item>
+        <item>MACHALA</item>
+        <item>MARCABELÍ</item>
+        <item>PASAJE</item>
+        <item>PIÑAS</item>
+        <item>PORTOVELO</item>
+        <item>SANTA ROSA</item>
+        <item>ZARUMA</item>
+    </string-array>
+
+    <string-array name="cantones_esmeraldas">
+        <item>ATACAMES</item>
+        <item>ELOY ALFARO</item>
+        <item>ESMERALDAS</item>
+        <item>MUISNE</item>
+        <item>QUININDÉ</item>
+        <item>RIOVERDE</item>
+        <item>SAN LORENZO</item>
+    </string-array>
+
+    <string-array name="cantones_galapagos">
+        <item>ISABELA</item>
+        <item>SAN CRISTÓBAL</item>
+        <item>SANTA CRUZ</item>
+    </string-array>
+
+    <string-array name="cantones_guayas">
+        <item>ALFREDO BAQUERIZO MORENO</item>
+        <item>BALAO</item>
+        <item>BALZAR</item>
+        <item>COLIMES</item>
+        <item>CORONEL MARCELINO MARIDUEÑA</item>
+        <item>DAULE</item>
+        <item>DURÁN</item>
+        <item>EL EMPALME</item>
+        <item>EL TRIUNFO</item>
+        <item>GENERAL ANTONIO ELIZALDE</item>
+        <item>GUAYAQUIL</item>
+        <item>ISIDRO AYORA</item>
+        <item>LOMAS DE SARGENTILLO</item>
+        <item>MILAGRO</item>
+        <item>NARANJAL</item>
+        <item>NARANJITO</item>
+        <item>NOBOL</item>
+        <item>PALESTINA</item>
+        <item>PEDRO CARBO</item>
+        <item>PLAYAS</item>
+        <item>SALITRE</item>
+        <item>SAMBORONDÓN</item>
+        <item>SANTA LUCÍA</item>
+        <item>SIMÓN BOLIVAR</item>
+        <item>YAGUACHI</item>
+    </string-array>
+
+    <string-array name="cantones_imbabura">
+        <item>ANTONIO ANTE</item>
+        <item>COTACACHI</item>
+        <item>IBARRA</item>
+        <item>OTAVALO</item>
+        <item>PIMAMPIRO</item>
+        <item>SAN MIGUEL DE URCUQUÍ</item>
+    </string-array>
+
+    <string-array name="cantones_loja">
+        <item>CALVAS</item>
+        <item>CATAMAYO</item>
+        <item>CELICA</item>
+        <item>CHAGUARPAMBA</item>
+        <item>ESPÍNDOLA</item>
+        <item>GONZANAMÁ</item>
+        <item>LOJA</item>
+        <item>MACARÁ</item>
+        <item>OLMEDO</item>
+        <item>PALTAS</item>
+        <item>PINDAL</item>
+        <item>PUYANGO</item>
+        <item>QUILANGA</item>
+        <item>SARAGURO</item>
+        <item>SOZORANGA</item>
+        <item>ZAPOTILLO</item>
+    </string-array>
+
+    <string-array name="cantones_losrios">
+        <item>BABA</item>
+        <item>BABAHOYO</item>
+        <item>BUENA FE</item>
+        <item>MOCACHE</item>
+        <item>MONTALVO</item>
+        <item>PALENQUE</item>
+        <item>PUEBLOVIEJO</item>
+        <item>QUEVEDO</item>
+        <item>QUINSALOMA</item>
+        <item>URDANETA</item>
+        <item>VALENCIA</item>
+        <item>VENTANAS</item>
+        <item>VINCES</item>
+    </string-array>
+
+    <string-array name="cantones_manabi">
+        <item>BOLIVAR</item>
+        <item>CHONE</item>
+        <item>EL CARMEN</item>
+        <item>FLAVIO ALFARO</item>
+        <item>JAMA</item>
+        <item>JARAMIJÓ</item>
+        <item>JIPIJAPA</item>
+        <item>JUNÍN</item>
+        <item>MANTA</item>
+        <item>MONTECRISTI</item>
+        <item>OLMEDO</item>
+        <item>PAJÁN</item>
+        <item>PEDERNALES</item>
+        <item>PICHINCHA</item>
+        <item>PORTOVIEJO</item>
+        <item>PUERTO LÓPEZ</item>
+        <item>ROCAFUERTE</item>
+        <item>SAN VICENTE</item>
+        <item>SANTA ANA</item>
+        <item>SUCRE</item>
+        <item>TOSAGUA</item>
+        <item>24 DE MAYO</item>
+    </string-array>
+
+    <string-array name="cantones_morona">
+        <item>GUALAQUIZA</item>
+        <item>HUAMBOYA</item>
+        <item>EL CARMEN</item>
+        <item>LIMÓN INDANZA</item>
+        <item>LOGROÑO</item>
+        <item>MORONA</item>
+        <item>PABLO SEXTO</item>
+        <item>PALORA</item>
+        <item>SAN JUAN BOSCO</item>
+        <item>SANTIAGO</item>
+        <item>SUCÚA</item>
+        <item>TAISHA</item>
+        <item>TIWINZA</item>
+    </string-array>
+
+    <string-array name="cantones_napo">
+        <item>ARCHIDONA</item>
+        <item>CARLOS JULIO AROSEMENA TOLA</item>
+        <item>EL CHACO</item>
+        <item>QUIJOS</item>
+        <item>TENA</item>
+    </string-array>
+
+    <string-array name="cantones_orellana">
+        <item>AGUARICO</item>
+        <item>ORELLANA</item>
+        <item>LA JOYA DE LOS SACHAS</item>
+        <item>LORETO</item>
+    </string-array>
+
+    <string-array name="cantones_pastaza">
+        <item>ARAJUNO</item>
+        <item>MERA</item>
+        <item>PASTAZA</item>
+        <item>SANTA CLARA</item>
+    </string-array>
+
+    <string-array name="cantones_pichincha">
+        <item>CAYAMBE</item>
+        <item>MEJÍA</item>
+        <item>PEDRO MONCAYO</item>
+        <item>PEDRO VICENTE MLDONADO</item>
+        <item>PUERTO QUITO</item>
+        <item>QUITO</item>
+        <item>RUMIÑAHUI</item>
+        <item>SAN MIGUEL DE LOS BANCOS</item>
+    </string-array>
+
+    <string-array name="cantones_santaelena">
+        <item>LA LIBERTAD</item>
+        <item>SALINAS</item>
+        <item>SANTA ELENA</item>
+    </string-array>
+
+    <string-array name="cantones_santodomingo">
+        <item>LA CONCORDIA</item>
+        <item>SANTO DOMINGO</item>
+    </string-array>
+
+    <string-array name="cantones_sucumbios">
+        <item>CASCALES</item>
+        <item>CUYABENO</item>
+        <item>GONZALO PIZARRO</item>
+        <item>LAGO AGRIO</item>
+        <item>PUTUMAYO</item>
+        <item>SHUSHUFINDI</item>
+        <item>SUCUMBÍOS</item>
+    </string-array>
+
+    <string-array name="cantones_tungurahua">
+        <item>AMBATO</item>
+        <item>BAÑOS</item>
+        <item>CEVALLOS</item>
+        <item>MOCHA</item>
+        <item>PATATE</item>
+        <item>PELILEO</item>
+        <item>PÍLLARO</item>
+        <item>QUERO</item>
+        <item>TISALEO</item>
+    </string-array>
+
+    <string-array name="cantones_zamora">
+        <item>CENTINELA DEL CÓNDOR</item>
+        <item>CHINCHIPE</item>
+        <item>EL PANGUI</item>
+        <item>NANGARITZA</item>
+        <item>PALANDA</item>
+        <item>PAQUISHA</item>
+        <item>YACUAMBI</item>
+        <item>YANTZAZA</item>
+        <item>ZAMORA</item>
+    </string-array>
+
+
+</resources>

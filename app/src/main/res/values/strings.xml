@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Proyecto Android - Grupo 2</string>
+
+
+    <!-- Datos Portada -->
+    <string name="universidad">UNIVERSIDAD CENTRAL DEL ECUADOR</string>
+    <string name="facultad">FACULTAD DE INGENIERÍA, CIENCIAS FÍSICAS Y MATEMÁTICA</string>
+    <string name="integrantes">INTEGRANTES</string>
+    <string name="integrante1">Acosta Chasi Cristhian Fernando</string>
+    <string name="integrante2">Jácome Escobar José David</string>
+    <string name="integrante3">Montoya Tite Angel Gabriel</string>
+    <string name="integrante4">Morán Buitrón Adaly Monserrat</string>
+    <string name="integrante5">Rivas Navarrete Josué Daniel</string>
+    <!-- Fin Datos Portada -->
+
+
+
+    <string name="label_theme">Custom Theme</string>
+    <string name="label_style">Styled Widgets</string>
+    <string name="hello">Hello World, MyActivity!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Activity Transitions</string>
+    <string name="title_activity_support">Support Fragment Transitions</string>
+    <string name="title_activity_native">Native Fragment Transitions</string>
+    <string name="label_perspective">Static Transform</string>
+    <string name="label_scroll">Transform Scroller</string>
+    <string name="label_actionbar">Action Bar</string>
+    <string name="label_toolbar">Toolbar</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_send">Send</string>
+    <string name="lock_name">Orientation Lock</string>
+    <string name="manual_name">Manual Rotation</string>
+    <string name="label_dialog">Dialogs</string>
+    <string name="label_custom">Custom Dialog Items</string>
+    <string name="title_activity_options">Options Menu</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_main_ime">CustomIME</string>
+    <string name="title_support">ActionBar Drawer</string>
+    <string name="title_toolbar">Toolbar Drawer</string>
+    <string name="action_delete">Delete</string>
+    <string name="drawer_open">Navigation Drawer Opened</string>
+    <string name="drawer_close">Navigation Drawer Closed</string>
+    <string name="label_pager">ViewPager</string>
+    <string name="label_fragment">Fragment ViewPager</string>
+</resources>

@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ec.edu.uce.dispmoviles.trabajo1hemi">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Cedula -->
+        <activity android:name="ec.edu.uce.dispmoviles.registrocedula.MainActivity">
+
+        </activity>
+
+        <!--Capitulo 1-->
+
+        <!-- Ejercicio 1-->
+        <activity android:name="ec.edu.uce.dispmoviles.cap1.ejer1.StylesActivity">
+
+        </activity>
+        <activity android:name="ec.edu.uce.dispmoviles.cap1.ejer1.ThemedActivity">
+
+        </activity>
+
+        <!-- Ejercicio 2 -->
+        <activity
+            android:name="ec.edu.uce.dispmoviles.cap1.ejer2.MainActivity"
+            android:theme="@style/Theme.AppCompat"></activity>
+        <!-- Sub-activities -->
+        <activity
+            android:name="ec.edu.uce.dispmoviles.cap1.ejer2.DarkActivity"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name="ec.edu.uce.dispmoviles.cap1.ejer2.FullActivity"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name="ec.edu.uce.dispmoviles.cap1.ejer2.HideActivity"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name="ec.edu.uce.dispmoviles.cap1.ejer2.ImmersiveActivity"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name="ec.edu.uce.dispmoviles.cap1.ejer2.ImmersiveStickyActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+
+        <!-- Ejercicio 3 -->
+        <activity android:name="ec.edu.uce.dispmoviles.cap1.ejer3.MyActivity">
+
+        </activity>
+
+        <!-- Ejercicio 4_1 -->
+        <activity android:name="ec.edu.uce.dispmoviles.cap1.ejer4_1.FlipperActivity">
+
+        </activity>
+        <activity android:name="ec.edu.uce.dispmoviles.cap1.ejer4_1.FlipperPauseActivity">
+
+        </activity>
+
+        <!-- Ejercicio 4_2 -->
+        <activity android:name="ec.edu.uce.dispmoviles.cap1.ejer4_2.AnimateActivity">
+
+        </activity>
+
+        <!-- Ejercicio 4_3 -->
+        <activity android:name="ec.edu.uce.dispmoviles.cap1.ejer4_3.FlipperActivity">
+
+        </activity>
+
+        <!-- Ejercicio 5 -->
+        <activity android:name="ec.edu.uce.dispmoviles.cap1.ejer5.MainActivity">
+
+        </activity>
+
+        <!-- Ejercicio 6 -->
+        <activity android:name="ec.edu.uce.dispmoviles.cap1.ejer6.UniversalActivity">
+
+        </activity>
+
+        <!-- Ejercicio 7 -->
+        <activity android:name="ec.edu.uce.dispmoviles.cap1.ejer7.EmptyActivity">
+
+        </activity>
+
+        <!-- Ejercicio 8 -->
+        <activity android:name="ec.edu.uce.dispmoviles.cap1.ejer8.MyActivity">
+
+        </activity>
+
+        <!-- Ejercicio 9 -->
+        <activity android:name="ec.edu.uce.dispmoviles.cap1.ejer9.SectionsActivity">
+
+        </activity>
+
+        <!-- Ejercicio 10 -->
+        <activity android:name="ec.edu.uce.dispmoviles.cap1.ejer10.MyActivity">
+
+        </activity>
+
+        <!-- Ejercicio 11 -->
+        <activity android:name="ec.edu.uce.dispmoviles.cap1.ejer11.MainActivity">
+
+        </activity>
+        <activity android:name="ec.edu.uce.dispmoviles.cap1.ejer11.NativeActivity">
+
+        </activity>
+        <activity android:name="ec.edu.uce.dispmoviles.cap1.ejer11.SupportActivity">
+
+        </activity>
+
+        <!-- Ejercicio 12 -->
+        <activity android:name="ec.edu.uce.dispmoviles.cap1.ejer12.MainActivity">
+
+        </activity>
+        <activity android:name="ec.edu.uce.dispmoviles.cap1.ejer12.ScrollActivity">
+
+        </activity>
+
+        <!-- Ejercicio 13 -->
+        <activity android:name="ec.edu.uce.dispmoviles.cap1.ejer13.SimpleRecyclerActivity">
+
+        </activity>
+
+
+        <!-- CAPITULO 2 -->
+        <!-- Ejercicio 1 -->
+        <activity android:name="ec.edu.uce.dispmoviles.cap2.ejer1.SupportActionActivity">
+
+        </activity>
+        <activity android:name="ec.edu.uce.dispmoviles.cap2.ejer1.SupportToolbarActivity">
+
+        </activity>
+
+        <!-- Ejercicio 3 - 4 -->
+        <activity android:name="ec.edu.uce.dispmoviles.cap2.ejer3_4.LockActivity">
+
+        </activity>
+        <activity android:name="ec.edu.uce.dispmoviles.cap2.ejer3_4.ManualRotationActivity">
+
+        </activity>
+
+        <!-- Ejercicio 5 -->
+        <activity android:name="ec.edu.uce.dispmoviles.cap2.ejer5.ActionActivity">
+
+        </activity>
+
+        <!-- Ejercicio 6 -->
+        <activity android:name="ec.edu.uce.dispmoviles.cap2.ejer6.CustomItemActivity">
+
+        </activity>
+        <activity android:name="ec.edu.uce.dispmoviles.cap2.ejer6.DialogActivity">
+
+        </activity>
+
+        <!-- Ejercicio 7 -->
+        <activity android:name="ec.edu.uce.dispmoviles.cap2.ejer7.OptionsActivity">
+
+        </activity>
+
+        <!-- Ejercicio 8 -->
+        <activity android:name="ec.edu.uce.dispmoviles.cap2.ejer8.MyActivity">
+
+        </activity>
+
+        <!-- Ejercicio 10 -->
+        <activity android:name="ec.edu.uce.dispmoviles.cap2.ejer10.MyActivity">
+
+        </activity>
+
+        <!-- Ejercicio 11 -->
+        <activity
+            android:name="ec.edu.uce.dispmoviles.cap2.ejer11.MainActivity"
+            android:label="@string/title_activity_main_ime">
+
+        </activity>
+
+        <!-- Ejercicio 13 - 14 -->
+        <activity android:name="ec.edu.uce.dispmoviles.cap2.ejer13_14.RemoteScrollActivity">
+
+        </activity>
+        <activity android:name="ec.edu.uce.dispmoviles.cap2.ejer13_14.DelegateActivity">
+
+        </activity>
+        <activity android:name="ec.edu.uce.dispmoviles.cap2.ejer13_14.ImageActivity">
+
+        </activity>
+        <activity android:name="ec.edu.uce.dispmoviles.cap2.ejer13_14.PanScrollActivity">
+
+        </activity>
+
+        <!-- Ejercicio 15 -->
+        <activity android:name="ec.edu.uce.dispmoviles.cap2.ejer15.DisallowActivity">
+
+        </activity>
+
+        <!-- Ejercicio 16 -->
+        <activity android:name="ec.edu.uce.dispmoviles.cap2.ejer16.DragTouchActivity">
+
+        </activity>
+
+        <!-- Ejercicio 17 -->
+        <activity android:name="ec.edu.uce.dispmoviles.cap2.ejer17.SupportActivity">
+
+        </activity>
+        <activity android:name="ec.edu.uce.dispmoviles.cap2.ejer17.ToolbarActivity">
+
+        </activity>
+
+        <!-- Ejercicio 18 -->
+        <activity android:name="ec.edu.uce.dispmoviles.cap2.ejer18.FragmentPagerActivity">
+
+        </activity>
+        <activity android:name="ec.edu.uce.dispmoviles.cap2.ejer18.PagerActivity">
+
+        </activity>
+
+        <!-- Ejercicio 19 -->
+        <activity android:name="ec.edu.uce.dispmoviles.cap2.ejer19.ActionTabsActivity">
+
+        </activity>
+
+    </application>
+
+</manifest>
