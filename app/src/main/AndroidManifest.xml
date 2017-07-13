@@ -2,6 +2,55 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="ec.edu.uce.dispmoviles.trabajo1hemi">
 
+    <!-- Permisos-->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.NFC" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <!-- Required in 4.4+ to read SMS provider -->
+    <uses-permission android:name="android.permission.READ_SMS" />
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"></uses-permission>
+
+    <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.CAMERA"></uses-permission>
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO"></uses-permission>
+
+
+    <!-- Required permission to User Activity Recognition -->
+    <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION" />
+
+
+
+
+    <!-- Required to display the user's location on the map -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!-- Permissions Required to Display a Map -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+
+
+
+    <!-- Maps v2 requires OpenGL ES 2.0 -->
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+
+
+    <uses-sdk android:minSdkVersion="9" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -14,7 +63,52 @@
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
+
             </intent-filter>
+
+
+            <!-- MY PARTE-->
+            <intent-filter>
+                <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />
+            </intent-filter>
+
+            <meta-data android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED"
+                android:resource="@xml/device_filter" />
+
+
+            <receiver
+                android:name="com.androidrecipes.sms.SmsReceiver"
+                android:exported="true">
+                <!-- Define a priority on the filter to catch the ordered broadcast -->
+                <intent-filter android:priority="5">
+                    <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+                </intent-filter>
+            </receiver>
+
+
+
+            <!-- Required Metadata Elements for Maps -->
+            <meta-data
+                android:name="com.google.android.maps.v2.API_KEY"
+                android:value="AIzaSyBRbkTNBobJqqcbZ0pnVlfauCFwe6O6o1w" />
+
+
+            <meta-data
+                android:name="com.google.android.gms.version"
+                android:value="@integer/google_play_services_version" />
+
+
+
+
+
+
+            <!-- Required boilerplate for Google Play Services -->
+
+
+            <service android:name="com.androidrecipes.usermotionactivity.UserMotionService" />
+
+
+
         </activity>
 
         <!-- Cedula -->
@@ -225,6 +319,166 @@
 
         <!-- Ejercicio 19 -->
         <activity android:name="ec.edu.uce.dispmoviles.cap2.ejer19.ActionTabsActivity">
+
+        </activity>
+
+
+        <!-- CAPITULO 3 -->
+
+        <!-- Ejercicio 1-2-->
+
+
+        <activity android:name="ec.edu.uce.dispmoviles.cap3.ejer1_2.MyLocalActivity">
+
+        </activity>
+
+        <!-- Ejercicio 3-->
+        <activity android:name="ec.edu.uce.dispmoviles.cap3.ejer_3.MyActivity">
+
+        </activity>
+
+        <!-- Ejercicio 5-->
+        <activity android:name="ec.edu.uce.dispmoviles.cap3.ejer_5.DownloadActivity">
+
+        </activity>
+
+
+
+        <!-- Ejercicio 6-->
+        <activity android:name="ec.edu.uce.dispmoviles.cap3.ejer_6.rest.AuthActivity">
+
+        </activity>
+
+        <activity android:name="ec.edu.uce.dispmoviles.cap3.ejer_6.rest.SearchActivity">
+
+        </activity>
+
+        <!-- Ejercicio 7-->
+        <activity android:name="ec.edu.uce.dispmoviles.cap3.ejer_7.MyActivity">
+
+        </activity>
+
+
+        <!-- Ejercicio 8_1-->
+        <activity android:name="ec.edu.uce.dispmoviles.cap3.ejer8_1.xmlpull.PullFeedActivity">
+
+        </activity>
+
+        <activity android:name="ec.edu.uce.dispmoviles.cap3.ejer8_1.xmlpull.PullParserActivity">
+
+        </activity>
+
+
+        <!-- Ejercicio 8_2-->
+        <activity android:name="ec.edu.uce.dispmoviles.cap3.ejer8_2.androidrecipes.xmlsax.FeedActivity">
+
+        </activity>
+
+        <!-- Ejercicio 9-10-->
+        <activity android:name="ec.edu.uce.dispmoviles.cap3.ejer9_10.SmsActivity">
+
+        </activity>
+
+        <!-- Ejercicio 11-->
+        <activity android:name="ec.edu.uce.dispmoviles.cap3.ejer11.ExchangeActivity">
+
+        </activity>
+
+        <!-- Ejercicio 12-->
+        <activity android:name="ec.edu.uce.dispmoviles.cap3.ejer12.Reachability">
+
+        </activity>
+
+        <!-- Ejercicio 13-->
+        <activity android:name="ec.edu.uce.dispmoviles.cap3.ejer13.BeamActivity">
+
+        </activity>
+
+        <activity android:name="ec.edu.uce.dispmoviles.cap3.ejer13.NfcActivity">
+
+        </activity>
+
+        <!-- Ejercicio 14-->
+        <activity android:name="ec.edu.uce.dispmoviles.cap3.ejer_14.USBActivity">
+
+        </activity>
+
+        <!-- CAPITULO 4-->
+
+        <!-- Ejercicio 2-3-->
+        <activity android:name="ec.edu.uce.dispmoviles.cap4.ejer2_3.androidrecipes.mapper.BasicMapActivity">
+        </activity>
+        <activity android:name="ec.edu.uce.dispmoviles.cap4.ejer2_3.androidrecipes.mapper.MarkerMapActivity">
+        </activity>
+
+        <activity android:name="ec.edu.uce.dispmoviles.cap4.ejer2_3.androidrecipes.mapper.ShapeMapActivity">
+        </activity>
+
+        <!-- Ejercicio 8-1-->
+        <activity android:name="ec.edu.uce.dispmoviles.cap4.ejer8_1.videocapture.MyActivity">
+        </activity>
+
+        <!-- Ejercicio 8-2-->
+        <activity android:name="ec.edu.uce.dispmoviles.cap4.ejer8_2.videooverlay.VideoCaptureActivity">
+        </activity>
+
+
+        <!-- Ejercicio 1-->
+        <activity android:name="ec.edu.uce.dispmoviles.cap4.ejer_1.mylocation.MainActivity">
+        </activity>
+
+        <!-- Ejercicio 4-->
+        <activity android:name="ec.edu.uce.dispmoviles.cap4.ejer_4.androidrecipes.regionmonitor.MainActivity">
+        </activity>
+
+        <!-- Ejercicio 5-->
+        <activity android:name="ec.edu.uce.dispmoviles.cap4.ejer_5.imagecapture.MyActivity">
+        </activity>
+
+        <!-- Ejercicio 6-->
+        <activity android:name="ec.edu.uce.dispmoviles.cap4.ejer_6.cameraoverlay.pic.PreviewActivity">
+        </activity>
+
+        <activity android:name="ec.edu.uce.dispmoviles.cap4.ejer_6.cameraoverlay.PreviewActivity">
+        </activity>
+
+        <!-- Ejercicio 7-->
+        <activity android:name="ec.edu.uce.dispmoviles.cap4.ejer_7.audioin.RecognizeActivity">
+        </activity>
+        <activity android:name="ec.edu.uce.dispmoviles.cap4.ejer_7.audioin.RecordActivity">
+        </activity>
+
+        <!-- Ejercicio 9-->
+        <activity android:name="ec.edu.uce.dispmoviles.cap4.ejer_9.androidrecipes.speechrecognizer.RecognizeActivity">
+        </activity>
+
+        <!-- Ejercicio 10-->
+        <activity android:name="ec.edu.uce.dispmoviles.cap4.ejer_10.playback.PlayActivity">
+        </activity>
+
+        <activity android:name="ec.edu.uce.dispmoviles.cap4.ejer_10.playback.PlayerActivity">
+        </activity>
+
+        <activity android:name="ec.edu.uce.dispmoviles.cap4.ejer_10.playback.VideoActivity">
+        </activity>
+        <!-- Ejercicio 11-->
+        <activity android:name="ec.edu.uce.dispmoviles.cap4.ejer_11.soundpool.SoundPoolActivity">
+        </activity>
+
+        <!-- Ejercicio 12-->
+        <activity android:name="ec.edu.uce.dispmoviles.cap4.ejer_12.tilt.TiltActivity">
+        </activity>
+
+        <!-- Ejercicio 13-->
+        <activity android:name="ec.edu.uce.dispmoviles.cap4.ejer_13.compass.CompassActivity">
+        </activity>
+
+        <!-- Ejercicio 14-->
+        <activity android:name="ec.edu.uce.dispmoviles.cap4.ejer_14.metadataretriever.MetadataActivity">
+        </activity>
+
+        <!-- Ejercicio 15-->
+        <activity android:name="ec.edu.uce.dispmoviles.cap4.ejer_15.androidrecipes.usermotionactivity.MainActivity">
 
         </activity>
 

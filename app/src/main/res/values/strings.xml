@@ -42,4 +42,20 @@
     <string name="drawer_close">Navigation Drawer Closed</string>
     <string name="label_pager">ViewPager</string>
     <string name="label_fragment">Fragment ViewPager</string>
+
+    <!-- -->
+
+    <string name="title_activity_usb">USBActivity</string>
+    <string name="title_activity_nfc">NfcActivity</string>
+    <string name="label_feed">XmlPull Feed</string>
+    <string name="label_local">XmlPull Resource</string>
+    <string name="label_rest">Basic REST</string>
+    <string name="label_auth">Authenticated REST</string>
+
+    <string name="label_web">Web Content</string>
+    <string name="label_local2">Local HTML Content</string>
+
+
+
+
 </resources>
